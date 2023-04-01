@@ -3,7 +3,6 @@ body{
 	font-size: 62.5%;
 	font-family: 'Varela Round', Helvetica, Arial, serif;
 }
-/* Global Styles*/
 h1{
 
 }
@@ -63,8 +62,6 @@ nav.main ul{
 	flex: 2 1 40rem;
 }
 
-/* -----*/
-
 a{
 	font-size: .93rem;
 	text-decoration: none;
@@ -80,7 +77,6 @@ a{
 	padding-bottom: 20px;
 }
 
-/* NAVIGATION BAR */
 .second-nav{
 	display: flex;
 	padding: 15px 30px;
@@ -115,8 +111,6 @@ a{
 	color: grey;
 }
 
-/* Article */
-
 article{
 	width: 93%;
 	margin: auto;
@@ -143,6 +137,7 @@ article{
   border-radius: 50%;
 }
 
+
 article:last-child {
   border-bottom: 0;
 }
@@ -156,7 +151,6 @@ time {
 	font-size: .94rem;
 }
 
-/* PROFILE */
 .profile{
 	display: flex;
 	align-items: center;
@@ -175,7 +169,6 @@ time {
 	font-size: 1.3rem;
 }
 
-/* Followers / Following / Post */
 .follow{
 	display: flex;
 	width: 95%;
@@ -187,7 +180,6 @@ time {
 }
 
 
-/*Form Elements*/
 form {
     margin: 0;
     padding: 40px;
@@ -237,7 +229,6 @@ button#submit:hover {
   opacity: 1;
 }
 
-/*Notifications*/
 .notification {
   text-align: center;
   padding: 10px 20px;
@@ -255,8 +246,6 @@ button#submit:hover {
   margin-bottom: 20px;
 }
 
-
-/*Footer*/
 footer{
   color: white;
   text-align: center;
@@ -285,7 +274,6 @@ img.profile{
   color: white;
 }
 
-/*Media Queries*/
 @media (max-width: 786px) {
   .main {
     width: 95%;
