@@ -70,3 +70,22 @@ def unfollow(request, username):
 	rel.delete()
 	messages.success(request, f'Ya no sigues a {username}')
 	return redirect('feed')
+
+@login_required
+def updatePost(request, pk):
+	post = Post.objects.get(id=pk)
+	form = PostForm(instance=post)
+
+	if request.method == 'POST':
+		form = PostForm(request.POST, instance=post)
+		if form.is_valid():
+			post.save()
+			messages.success(request, 'Post actualizado')
+			return redirect('profile')
+	else:
+		post.save()
+	
+	context = {
+		"form": form
+	}
+	return render(request, 'social/edit.html', context)
