@@ -25,7 +25,7 @@ button{
 	color: white;
 	padding: 0.4rem 1.4rem;
 	border: none;
-	background: #7A9D96;
+	background: #7a7e9d;
 	 border-radius: 4px;
 	cursor: pointer;
 
@@ -179,6 +179,11 @@ time {
 	padding-bottom: 20px;
 }
 
+
+.edit{
+  background-color: red;
+  
+}
 
 form {
     margin: 0;

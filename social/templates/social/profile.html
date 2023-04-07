@@ -3,8 +3,13 @@
 
 <!-- Profile -->
 <div class="profile">
+	
 	<img src="{{ user.profile.image.url }}">
 	<h2>@{{ user.username }}</h2>
+
+	{% if user.username == request.user.username %}
+		<button><a class="follow-button" href="{% url 'feed' %}">Editar</a></button>
+	{% endif %}
 
 	{% if request.user.is_authenticated %}
 		{% if user.username != request.user.username %}
