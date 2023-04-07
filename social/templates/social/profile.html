@@ -8,7 +8,7 @@
 	<h2>@{{ user.username }}</h2>
 
 	{% if user.username == request.user.username %}
-		<button><a class="follow-button" href="{% url 'feed' %}">Editar</a></button>
+		<button><a class="follow-button" href="{% url 'edit_profile' %}">Editar perfil</a></button>
 	{% endif %}
 
 	{% if request.user.is_authenticated %}
