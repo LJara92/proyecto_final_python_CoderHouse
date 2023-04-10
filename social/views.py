@@ -104,3 +104,9 @@ def edit_profile(request):
     else:
         form = ProfileForm(instance=request.user.profile)
     return render(request, 'social/edit_profile.html', {'form': form})
+
+@login_required
+def delete_post(request, id):
+	data = get_object_or_404(Post, id=id)
+	data.delete()
+	return redirect('feed')

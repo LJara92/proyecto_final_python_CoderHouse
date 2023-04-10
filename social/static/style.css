@@ -229,6 +229,11 @@ button#submit #edit {
   color: white;
 }
 
+.delete{
+  background-color: #AB3444;
+  color: white;
+}
+
 button#submit:hover {
   opacity: 1;
 }

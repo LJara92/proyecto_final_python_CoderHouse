@@ -1,7 +1,5 @@
 from django.urls import path
 from . import views
-from django.conf import settings
-from django.conf.urls.static import static
 from django.contrib.auth.views import LoginView, LogoutView
 
 
@@ -17,5 +15,6 @@ urlpatterns = [
 	path('unfollow/<str:username>/', views.unfollow, name='unfollow'),
     path('profile/updatePost/<str:pk>/', views.updatePost, name='update-post'),
     path('edit_profile/', views.edit_profile, name='edit_profile'),
+    path('delete/<str:id>', views.delete_post, name='delete-post')
 	
 ] 
