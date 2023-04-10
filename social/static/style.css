@@ -180,11 +180,6 @@ time {
 }
 
 
-.edit{
-  background-color: red;
-  
-}
-
 form {
     margin: 0;
     padding: 40px;
@@ -218,7 +213,7 @@ textarea:focus {
   border-color: #7A9D96;
   color: #2C3238;
 }
-button#submit {
+button#submit #edit {
   width: 100%;
   padding: 20px 0;
   text-align: center;
@@ -228,6 +223,10 @@ button#submit {
   border-radius: 4px;
   opacity: .8;
   transition: .35s linear;
+}
+
+.edit{
+  color: white;
 }
 
 button#submit:hover {
