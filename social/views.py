@@ -92,10 +92,13 @@ def updatePost(request, pk):
 
 @login_required
 def edit_profile(request):
+    user = request.user
     if request.method == 'POST':
-        form = ProfileForm(request.POST, request.FILES, instance=request.user.profile)
-
+        form = ProfileForm(request.POST, request.FILES, instance=user.profile)
         if form.is_valid():
+            data = form.cleaned_data
+            user.profile.image = data.get('Foto') if data.get('Foto') else user.profile.image
+            user.save()
             form.save()
             return redirect('profile')
     else:
