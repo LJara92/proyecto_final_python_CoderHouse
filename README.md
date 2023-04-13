@@ -45,12 +45,12 @@ Lautaro Jara
 
 ## Credenciales de prueba:
 
-#### User: lautaro
-#### Key: 1234
-
-#### User: coderhouse
-#### Key: Python123
-
+User: lautaro
+Key: 1234
+---
+User: coderhouse
+Key: Python123
+---
 User: German
 Key: Profesor123
 
