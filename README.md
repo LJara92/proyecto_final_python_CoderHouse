@@ -8,7 +8,7 @@ El proyecto consiste en una aplicación de tipo blog, similar a una red social c
 
 ## Instalación
 
-``
+```
 git clone https://github.com/LJara92/proyecto_final_python_CoderHouse
 
 cd social_django
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 python3 manage.py runserver
 
-``
+```
 
 La aplicación ha sido desarrollada utilizando el framework Flask y se ha utilizado una base de datos SQLite para almacenar los datos de los usuarios y los pedidos.
 
