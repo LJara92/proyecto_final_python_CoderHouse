@@ -14,16 +14,37 @@ git clone https://github.com/LJara92/proyecto_final_python_CoderHouse
 cd social_django
 
 pip install -r requirements.txt
-
-python3 manage.py runserver
-
 ```
 
-La aplicación ha sido desarrollada utilizando el framework Flask y se ha utilizado una base de datos SQLite para almacenar los datos de los usuarios y los pedidos.
+## Ejecucion de la app
 
-Credenciales:
+Debermos ejecutar el archivo manage.py utilizando el siguiente codigo 
 
-Alumno: Lautaro Jara
+```
+python3 manage.py runserver
+```
+La aplicación estará disponible en la dirección http://localhost:8000
+
+## Funcionalidades
+
+La aplicación ofrece las siguientes funcionalidades:
+
+    Registro de usuarios
+    Inicio de sesión de usuarios
+    Visualización de publicaciones, y perfil de usuario
+    Agregar publicaciones (requiere login)
+    Editar y/o borrar publicaciones propias (requiere login)
+    Cambiar la foto de perfil
+    Seguir (follor) a otros usuario o desseguirlo (unfollow)
+    Ver todas la publicaciones realizadas por un usuario
+
+## Autor
+Lautaro Jara
+
+
+
+## Credenciales de prueba:
+
 User: lautaro
 Key: 1234
 
