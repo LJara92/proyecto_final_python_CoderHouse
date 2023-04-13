@@ -91,6 +91,10 @@ a{
 	color: grey;
 }
 
+.second-nav .about{
+  flex: 1 1 30px;
+}
+
 .second-nav .profile{
 	flex: 1 1 30px;
 }
@@ -288,4 +292,8 @@ img.profile{
     width: 95%;
   }
 
+}
+
+.about-description{
+  margin: 1.5em;
 }

@@ -110,3 +110,7 @@ def delete_post(request, id):
 	data = get_object_or_404(Post, id=id)
 	data.delete()
 	return redirect('feed')
+
+
+def about(request):
+	return render(request, 'social/about.html', context=None)
