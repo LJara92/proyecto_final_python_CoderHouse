@@ -282,6 +282,14 @@ img.profile{
   border-radius: 50%;
 }
 
+img.about{
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+  margin-left: 30px;
+  border-radius: 25%;
+}
+
 
 .follow-button{
   color: white;
@@ -296,4 +304,8 @@ img.profile{
 
 .about-description{
   margin: 2em;
+}
+
+.foto-about{
+  size: 200px;
 }
