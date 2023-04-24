@@ -41,6 +41,8 @@ La aplicación ofrece las siguientes funcionalidades:
 ## Autor
 Lautaro Jara
 
+## Video mostrando funciones
+https://www.youtube.com/watch?v=4P9l9td9qZg&ab_channel=lautarojara/
 
 
 ## Credenciales de prueba:
